@@ -3,9 +3,9 @@ entries:
   keycloak:
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-01-02T19:30:06.689596281Z"
+    created: "2023-01-02T20:46:14.125319073Z"
     description: Keycloak Open Source Identity and Access Management
-    digest: c0ca89596920d45a682c37270739f3ec46568482628f6e2930be4367c44bdb38
+    digest: 52d47025b003e492a902c903a96150a433e9ccb254ec172650b1d04016c3a9ab
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
     keywords:
@@ -19,9 +19,10 @@ entries:
       name: laurodias
     name: keycloak
     sources:
+    - https://github.com/barravar/helm-charts
     - https://github.com/codecentric/helm-charts
     type: application
     urls:
-    - keycloak-0.0.1.tgz
-    version: 0.0.1
-generated: "2023-01-02T19:30:06.688839961Z"
+    - keycloak-1.0.1.tgz
+    version: 1.0.1
+generated: "2023-01-02T20:46:14.121844784Z"
