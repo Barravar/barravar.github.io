@@ -3,9 +3,9 @@ entries:
   keycloak:
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-01-04T18:50:13.666316161Z"
+    created: "2023-01-04T19:35:25.195803779Z"
     description: Keycloak Open Source Identity and Access Management
-    digest: da8e1c1f17e1a885a1573b9c5ba046eb9bbbfddbf9782740a80e2e0647cbc708
+    digest: af1df9e13641330a70b81ca6a0a511465068bf6b20f07101e2ade63e1aa8d3a0
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
     keywords:
@@ -27,7 +27,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-01-04T18:50:13.665653726Z"
+    created: "2023-01-04T19:35:25.194989405Z"
     description: Keycloak Open Source Identity and Access Management
     digest: 52d47025b003e492a902c903a96150a433e9ccb254ec172650b1d04016c3a9ab
     home: https://www.keycloak.org/
@@ -49,4 +49,4 @@ entries:
     urls:
     - keycloak-1.0.1.tgz
     version: 1.0.1
-generated: "2023-01-04T18:50:13.664879636Z"
+generated: "2023-01-04T19:35:25.193936275Z"
