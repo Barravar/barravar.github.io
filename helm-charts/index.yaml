@@ -3,9 +3,9 @@ entries:
   keycloak:
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-01-09T17:46:19.356832822Z"
+    created: "2023-01-09T18:10:10.785362784Z"
     description: Keycloak Open Source Identity and Access Management
-    digest: 5d5d3cc1f443dbe63bce5d97075cdb8202c7a795ce773919b8c2546ed312b8a9
+    digest: 9453843162a512d829b2a9ee08173a52b5e93e07624c8a70f924902756a04786
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
     keywords:
@@ -23,78 +23,6 @@ entries:
     - https://github.com/codecentric/helm-charts
     type: application
     urls:
-    - keycloak-1.0.6.tgz
-    version: 1.0.6
-  - apiVersion: v2
-    appVersion: 20.0.2
-    created: "2023-01-09T17:46:19.356104963Z"
-    description: Keycloak Open Source Identity and Access Management
-    digest: f7e008983687d2e96dff3a8027bfa1ed60ceb099e29d846d96d3a7b356c3e392
-    home: https://www.keycloak.org/
-    icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
-    keywords:
-    - sso
-    - openid
-    - saml
-    - kerberos
-    - ldap
-    maintainers:
-    - email: laurodias1@gmail.com
-      name: laurodias
-    name: keycloak
-    sources:
-    - https://github.com/barravar/helm-charts
-    - https://github.com/codecentric/helm-charts
-    type: application
-    urls:
-    - keycloak-1.0.5.tgz
-    version: 1.0.5
-  - apiVersion: v2
-    appVersion: 20.0.2
-    created: "2023-01-09T17:46:19.354572952Z"
-    description: Keycloak Open Source Identity and Access Management
-    digest: f81b0c07a853d8ba7f5147731baafb33f4399c23b51e4941db77986bbda2b901
-    home: https://www.keycloak.org/
-    icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
-    keywords:
-    - sso
-    - openid
-    - saml
-    - kerberos
-    - ldap
-    maintainers:
-    - email: laurodias1@gmail.com
-      name: laurodias
-    name: keycloak
-    sources:
-    - https://github.com/barravar/helm-charts
-    - https://github.com/codecentric/helm-charts
-    type: application
-    urls:
-    - keycloak-1.0.4.tgz
-    version: 1.0.4
-  - apiVersion: v2
-    appVersion: 20.0.2
-    created: "2023-01-09T17:46:19.353181636Z"
-    description: Keycloak Open Source Identity and Access Management
-    digest: b5ef28a9a4f148eae97c87adb00518906a5e98da8a3f706ca1f02c659323708c
-    home: https://www.keycloak.org/
-    icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
-    keywords:
-    - sso
-    - openid
-    - saml
-    - kerberos
-    - ldap
-    maintainers:
-    - email: laurodias1@gmail.com
-      name: laurodias
-    name: keycloak
-    sources:
-    - https://github.com/barravar/helm-charts
-    - https://github.com/codecentric/helm-charts
-    type: application
-    urls:
-    - keycloak-1.0.3.tgz
-    version: 1.0.3
-generated: "2023-01-09T17:46:19.352018819Z"
+    - keycloak-1.0.7.tgz
+    version: 1.0.7
+generated: "2023-01-09T18:10:10.78436513Z"
