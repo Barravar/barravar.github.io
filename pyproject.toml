@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "barravar.github.io"
+version = "0.1.0"
+description = "Barravar Git Repository"
+authors = ["Lauro Dias <lauro@barravar.com.br>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jinja2 = "*"
+markdown2 = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocs-material-extensions = "*"
+pygments = "*"
+pymdown-extensions = "*"
+mkdocs-git-revision-date-plugin = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
+mkdocs-macros-plugin = "*"
+mkdocs-techdocs-core = "*"
+mkdocs-kroki-plugin = "*"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
