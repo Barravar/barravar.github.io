@@ -3,9 +3,9 @@ entries:
   keycloak:
   - apiVersion: v2
     appVersion: 20.0.2
-    created: "2023-01-09T18:10:10.785362784Z"
+    created: "2023-01-02T20:30:42.010724333Z"
     description: Keycloak Open Source Identity and Access Management
-    digest: 9453843162a512d829b2a9ee08173a52b5e93e07624c8a70f924902756a04786
+    digest: 73c8d0dbf0dcb6dcf2198f584c7452e690493c575cc7e9fdcefb2ea740bf4f6d
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
     keywords:
@@ -23,6 +23,6 @@ entries:
     - https://github.com/codecentric/helm-charts
     type: application
     urls:
-    - keycloak-1.0.7.tgz
-    version: 1.0.7
-generated: "2023-01-09T18:10:10.78436513Z"
+    - keycloak-1.0.1.tgz
+    version: 1.0.1
+generated: "2023-01-02T20:30:42.009946268Z"
