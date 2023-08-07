@@ -1,0 +1,90 @@
+---
+site_name: 'Barravar'
+site_description: 'Barravar Git Repository'
+
+repo_url: https://git.barravar.com.br
+repo_name: barravar
+#edit_uri: edit/gh-pages/docs/
+
+copyright: 'Copyright &copy; 2023 Barravar'
+
+theme:
+  name: material
+  #name: readthedocs
+  include_search_page: false
+  search_index_only: true
+  locale: en
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+  #- scheme: slate
+    scheme: slate
+    primary: teal
+    accent: indigo
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+    #- scheme: default
+    #  primary: teal
+    #  accent: indigo
+    #  toggle:
+    #    icon: material/lightbulb
+    #    name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+    #code: Inconsolata
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.instant
+  plugins:
+    - git-revision-date
+    - techdocs-core
+    - kroki
+
+nav:
+  - About: 'index.md'
+  - Helm Charts: 'helm-charts.md'
+
+plugins:
+  - macros:
+      include_yaml:
+        - ./docs/_data/helm/index.yaml
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      prebuild_index: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - sane_lists
+  - smarty
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+
+extra_css:
+  - stylesheets/extra.css
