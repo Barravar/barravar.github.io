@@ -1,0 +1,116 @@
+---
+site_name: 'Barravar'
+site_description: 'Barravar Git Repository'
+
+repo_url: https://git.barravar.com.br
+repo_name: barravar
+#edit_uri: edit/gh-pages/docs/
+
+copyright: 'Copyright &copy; 2023 Barravar'
+
+theme:
+  name: material
+
+  include_search_page: false
+  search_index_only: true
+
+  locale: en
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+    #code: Inconsolata
+
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+
+  palette:
+    media: "(prefers-color-scheme: light)"
+    scheme: light
+    primary: teal
+    accent: indigo
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
+  #  - scheme: default
+  #    primary: teal
+  #    accent: indigo
+  #    toggle:
+  #      icon: material/lightbulb
+  #      name: Switch to dark mode
+  #palette:
+  #  media: "(prefers-color-scheme: light)"
+  #  scheme: default
+  #  accent: deep orange
+  #  toggle:
+  #    icon: material/weather-sunny
+  #    name: Switch to dark mode
+
+  
+  plugins:
+    - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      prebuild_index: true
+    - git-revision-date
+    - macros
+    - techdocs-core
+    - kroki
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: Barravar
+      repo: barravar.github.io
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
+      title: On this page
+
+plugins:
+  - macros:
+      include_yaml:
+        - helm_charts: ./docs/_data/helm/index.yaml
+#  - search:
+#      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+#      prebuild_index: true
+
+extra_css:
+  - stylesheets/extra.css
