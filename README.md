@@ -17,13 +17,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-### Helm Charts
-
-This repsitory includes Helm charts customized for deployment in Barravar. Run the following commands to include it in your environment:
-
-```
-helm repo add barravar https://git.barravar.com.br/helm-charts
-helm repo update
-```
-
-Happy Helming!
